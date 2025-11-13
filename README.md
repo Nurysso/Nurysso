@@ -1,12 +1,4 @@
-<!-- <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=300&section=header&text=Dawood%&fontSize=50&fontAlignY=35&desc=Building%20the%20future%20with%20code%20and%20machine%20learning&descAlignY=60&animation=fadeIn" />
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2500&pause=1000&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Code+Architecture+Enthusiast+%F0%9F%8F%97%EF%B8%8F;Open+Source+Contributor+%F0%9F%94%A5" alt="Typing SVG" />
-</div> -->
-
-<!-- About Me Section with Animated Border -->
+<!-- About Me Section -->
 <div align="center">
   <h1>👨‍💻 About Me</h1>
 </div>
@@ -17,11 +9,10 @@
       <img src="assets/looney-toons.webp" width="450">
     </td>
     <td width="50%">
-      <h3>I'm a</h3>
+      <h3>I'm a human (clearly), who likes to</h3>
       <p>
-        <img src="assets/Man-Technologist-Light-Skin-Tone.png" width="25" height="25" alt="Man Technologist Light Skin Tone" /> Web Developer @ XUNOIA crafting seamless user experiences<br><br>
-        <img src="assets/Star.png" width="25" height="25" alt="Star" /> Building tools to make life a little easy <br><br>
-        <img src="assets/Smiling-Face with-Sunglasses.png" width="25" height="25" alt="sunglasses" /> Also I use Arch btw <br>
+        <img src="assets/Star.png" width="25" height="25" alt="Star" /> Build tools to make life a little easy <br><br>
+        <img src="assets/Smiling-Face with-Sunglasses.png" width="25" height="25" alt="sunglasses" /> I use Arch btw <br>
       </p>
     </td>
   </tr>
@@ -36,7 +27,7 @@
 </div>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,js,ts,go,react,nodejs,nextjs,tailwind&perline=10" /><br>
+  <img src="https://skillicons.dev/icons?i=go,ts,nextjs,react,rust,python,cpp&perline=10" /><br>
   <img src="https://skillicons.dev/icons?i=git,docker,mongodb,mysql,linux&perline=5" />
 </div>
 <br>
@@ -76,16 +67,16 @@
 <!-- Project Cards with Enhanced Design -->
 <table border="0" width="100%">
   <tr>
-    <!-- <td width="50%" align="center" style="padding: 20px;">
-      <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 1px;">
+<td width="50%" align="center" style="padding: 20px;">
+      <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); border-radius: 15px; padding: 1px;">
         <div style="background: #0D1117; border-radius: 14px; padding: 20px;">
-          <h2> Janus </h2>
-          <a href="https://github.com/Aelune/Janus">
-            <img width="90%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Aelune&repo=Janus&theme=react&bg_color=0D1117&hide_border=true" alt="Janus" />
+          <h2>Hecate </h2>
+          <a href="https://github.com/Aelune/Hecate">
+            <img width="90%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Aelune&repo=Hecate&theme=react&bg_color=0D1117&hide_border=true" alt="Hecate" />
           </a>
           <div style="margin: 15px 0;">
-            <a href="https://github.com/Aelune/Janus">
-              <img src="https://img.shields.io/badge/EXPLORE_CODE-12100E?style=for-the-badge&logo=github&logoColor=white&color=667eea" />
+            <a href="https://github.com/Aelune/Hecatae">
+              <img src="https://img.shields.io/badge/EXPLORE_CODE-12100E?style=for-the-badge&logo=github&logoColor=white&color=fa709a" />
             </a>
           </div>
         </div>
@@ -95,18 +86,18 @@
       <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 15px; padding: 1px;">
         <div style="background: #0D1117; border-radius: 14px; padding: 20px;">
           <h2>Loki </h2>
-          <a href="https://github.com/Aelune/Loki">
-            <img width="90%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Aelune&repo=Loki&theme=react&bg_color=0D1117&hide_border=true" alt="Loki" />
+          <a href="https://github.com/Aelune/kondo">
+            <img width="90%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Aelune&repo=kondo&theme=react&bg_color=0D1117&hide_border=true" alt="Loki" />
           </a>
           <div style="margin: 15px 0;">
-            <a href="https://github.com/Aelune/Loki">
+            <a href="https://github.com/Aelune/kondo">
               <img src="https://img.shields.io/badge/EXPLORE_CODE-12100E?style=for-the-badge&logo=github&logoColor=white&color=f093fb" />
             </a>
           </div>
         </div>
       </div>
     </td>
-  </tr> -->
+  </tr>
 
   <tr>
     <td width="50%" align="center" style="padding: 20px;">
@@ -124,16 +115,16 @@
         </div>
       </div>
     </td>
-    <td width="50%" align="center" style="padding: 20px;">
-      <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); border-radius: 15px; padding: 1px;">
+        <td width="50%" align="center" style="padding: 20px;">
+      <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 1px;">
         <div style="background: #0D1117; border-radius: 14px; padding: 20px;">
-          <h2>Hecate </h2>
-          <a href="https://github.com/Aelune/Hecate">
-            <img width="90%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Aelune&repo=Hecate&theme=react&bg_color=0D1117&hide_border=true" alt="Hecate" />
+          <h2> vanish </h2>
+          <a href="https://github.com/Aelune/vanish">
+            <img width="90%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Aelune&repo=vanish&theme=react&bg_color=0D1117&hide_border=true" alt="vanish" />
           </a>
           <div style="margin: 15px 0;">
-            <a href="https://github.com/Aelune/Hecatae">
-              <img src="https://img.shields.io/badge/EXPLORE_CODE-12100E?style=for-the-badge&logo=github&logoColor=white&color=fa709a" />
+            <a href="https://github.com/Aelune/vanish">
+              <img src="https://img.shields.io/badge/EXPLORE_CODE-12100E?style=for-the-badge&logo=github&logoColor=white&color=667eea" />
             </a>
           </div>
         </div>
@@ -174,7 +165,7 @@
 <!-- Fun Project Timeline -->
 <!-- <div align="center">
   <h2>🗺️ Project Journey</h2>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=4000&pause=1000&center=true&vCenter=true&width=800&height=40&lines=🧠+Janus+→+🌐+Loki+→+⚙️+Athena+→+🔮+Hecate+→+???;From+AI+Dreams+to+Web+Magic+to+Automation+Wisdom!;Each+Project+Unlocks+New+Possibilities+%F0%9F%94%93" alt="Project Timeline" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=4000&pause=1000&center=true&vCenter=true&width=800&height=40&lines=🧠+vanish+→+🌐+Loki+→+⚙️+Athena+→+🔮+Hecate+→+???;From+AI+Dreams+to+Web+Magic+to+Automation+Wisdom!;Each+Project+Unlocks+New+Possibilities+%F0%9F%94%93" alt="Project Timeline" />
 </div> -->
 
 <br>
