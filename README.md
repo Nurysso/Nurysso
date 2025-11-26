@@ -85,9 +85,9 @@
     <td width="50%" align="center" style="padding: 20px;">
       <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 15px; padding: 1px;">
         <div style="background: #0D1117; border-radius: 14px; padding: 20px;">
-          <h2>Loki </h2>
+          <h2>kondo </h2>
           <a href="https://github.com/Aelune/kondo">
-            <img width="90%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Aelune&repo=kondo&theme=react&bg_color=0D1117&hide_border=true" alt="Loki" />
+            <img width="90%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Aelune&repo=kondo&theme=react&bg_color=0D1117&hide_border=true" alt="kondo" />
           </a>
           <div style="margin: 15px 0;">
             <a href="https://github.com/Aelune/kondo">
@@ -100,21 +100,6 @@
   </tr>
 
   <tr>
-    <td width="50%" align="center" style="padding: 20px;">
-      <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 15px; padding: 1px;">
-        <div style="background: #0D1117; border-radius: 14px; padding: 10px;">
-          <h2> Athena </h2>
-          <a href="https://github.com/Aelune/Athena">
-            <img width="90%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Aelune&repo=Athena&theme=react&bg_color=0D1117&hide_border=true" alt="Athena" />
-          </a>
-          <div style="margin: 15px 0;">
-            <a href="https://github.com/Aelune/Athena">
-              <img src="https://img.shields.io/badge/EXPLORE_CODE-12100E?style=for-the-badge&logo=github&logoColor=white&color=4facfe" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </td>
         <td width="50%" align="center" style="padding: 20px;">
       <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 1px;">
         <div style="background: #0D1117; border-radius: 14px; padding: 20px;">
@@ -125,6 +110,21 @@
           <div style="margin: 15px 0;">
             <a href="https://github.com/Aelune/vanish">
               <img src="https://img.shields.io/badge/EXPLORE_CODE-12100E?style=for-the-badge&logo=github&logoColor=white&color=667eea" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </td>
+        <td width="50%" align="center" style="padding: 20px;">
+      <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 15px; padding: 1px;">
+        <div style="background: #0D1117; border-radius: 14px; padding: 10px;">
+          <h2> Eulix </h2>
+          <a href="https://github.com/Aelune/Eulix">
+            <img width="90%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Aelune&repo=Eulix&theme=react&bg_color=0D1117&hide_border=true" alt="Eulix" />
+          </a>
+          <div style="margin: 15px 0;">
+            <a href="https://github.com/Aelune/Eulix">
+              <img src="https://img.shields.io/badge/EXPLORE_CODE-12100E?style=for-the-badge&logo=github&logoColor=white&color=4facfe" />
             </a>
           </div>
         </div>
