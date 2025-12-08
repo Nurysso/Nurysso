@@ -1,0 +1,59 @@
+{
+  "last_updated": "2025-12-08 10:30:14",
+  "total_stars": 122,
+  "total_repositories": 17,
+  "public_repositories": 17,
+  "starred_repositories": 10,
+  "top_repositories": [
+    {
+      "name": "Hecate",
+      "stars": 102,
+      "language": "Shell"
+    },
+    {
+      "name": "kondo",
+      "stars": 4,
+      "language": "Rust"
+    },
+    {
+      "name": "vanish",
+      "stars": 4,
+      "language": "Go"
+    },
+    {
+      "name": "eulix",
+      "stars": 3,
+      "language": "Rust"
+    },
+    {
+      "name": "Freya",
+      "stars": 2,
+      "language": "N/A"
+    },
+    {
+      "name": "sddm-astronaut-theme",
+      "stars": 2,
+      "language": "QML"
+    },
+    {
+      "name": "venus",
+      "stars": 2,
+      "language": "CSS"
+    },
+    {
+      "name": "Athena",
+      "stars": 1,
+      "language": "N/A"
+    },
+    {
+      "name": "Nurysso",
+      "stars": 1,
+      "language": "Python"
+    },
+    {
+      "name": "prtofolio",
+      "stars": 1,
+      "language": "TypeScript"
+    }
+  ]
+}

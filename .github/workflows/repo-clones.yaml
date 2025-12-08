@@ -1,0 +1,55 @@
+name: Track Repository Clones
+
+on:
+  schedule:
+    # Runs every 14 days at midnight UTC
+    - cron: '0 0 */14 * *'
+  workflow_dispatch:
+
+jobs:
+  track-clones:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests PyGithub
+
+      - name: Run clone tracker script
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+        run: python scripts/track_clones.py
+
+      - name: Commit and push if changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Check if files exist before trying to add them
+          files_to_add=""
+          [ -f "data/clone_data.csv" ] && files_to_add="$files_to_add data/clone_data.csv"
+          [ -f "data/clones_summary.json" ] && files_to_add="$files_to_add data/clones_summary.json"
+
+          if [ -n "$files_to_add" ]; then
+            git add $files_to_add
+            if git diff --staged --quiet; then
+              echo "No changes to commit"
+            else
+              git commit -m "Update clone statistics - $(date +'%Y-%m-%d')"
+              git push
+            fi
+          else
+            echo "Error: No output files were generated in data/ directory"
+            exit 1
+          fi

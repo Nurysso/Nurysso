@@ -1,141 +1,223 @@
-<!-- About Me Section -->
-<table border="0">
-  <tr>
-    <td width="50%">
-      <h3>I'm a human (clearly), who likes to</h3>
-      <p>
-        <img src="assets/Star.png" width="25" height="25" alt="Star" /> Build tools to make life a little easy <br><br>
-        <img src="assets/Smiling-Face with-Sunglasses.png" width="25" height="25" alt="sunglasses" /> I use Arch btw <br>
-      </p>
-    </td>
-        <td width="50%" align="center">
-      <img src="assets/looney-toons.webp" width="450">
-    </td>
-  </tr>
-</table>
-
-<!-- Project Cards with Enhanced Design -->
-<table border="0" width="100%">
-  <tr>
-<td width="50%" align="center" style="padding: 20px;">
-      <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); border-radius: 15px; padding: 1px;">
-        <div style="background: #0D1117; border-radius: 14px; padding: 20px;">
-          <h2>Hecate </h2>
-          <a href="https://github.com/Nurysso/Hecate">
-            <img width="90%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Nurysso&repo=Hecate&theme=react&bg_color=0D1117&hide_border=true" alt="Hecate" />
-          </a>
-          <div style="margin: 15px 0;">
-            <a href="https://github.com/Nurysso/Hecatae">
-              <img src="https://img.shields.io/badge/EXPLORE_CODE-12100E?style=for-the-badge&logo=github&logoColor=white&color=fa709a" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </td>
-    <td width="50%" align="center" style="padding: 20px;">
-      <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 15px; padding: 1px;">
-        <div style="background: #0D1117; border-radius: 14px; padding: 20px;">
-          <h2>kondo </h2>
-          <a href="https://github.com/Nurysso/kondo">
-            <img width="90%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Nurysso&repo=kondo&theme=react&bg_color=0D1117&hide_border=true" alt="kondo" />
-          </a>
-          <div style="margin: 15px 0;">
-            <a href="https://github.com/Nurysso/kondo">
-              <img src="https://img.shields.io/badge/EXPLORE_CODE-12100E?style=for-the-badge&logo=github&logoColor=white&color=f093fb" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </td>
-  </tr>
-
-  <tr>
-        <td width="50%" align="center" style="padding: 20px;">
-      <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 1px;">
-        <div style="background: #0D1117; border-radius: 14px; padding: 20px;">
-          <h2> vanish </h2>
-          <a href="https://github.com/Nurysso/vanish">
-            <img width="90%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Nurysso&repo=vanish&theme=react&bg_color=0D1117&hide_border=true" alt="vanish" />
-          </a>
-          <div style="margin: 15px 0;">
-            <a href="https://github.com/Nurysso/vanish">
-              <img src="https://img.shields.io/badge/EXPLORE_CODE-12100E?style=for-the-badge&logo=github&logoColor=white&color=667eea" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </td>
-        <td width="50%" align="center" style="padding: 20px;">
-      <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 15px; padding: 1px;">
-        <div style="background: #0D1117; border-radius: 14px; padding: 10px;">
-          <h2> Eulix </h2>
-          <a href="https://github.com/Nurysso/Eulix">
-            <img width="90%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Nurysso&repo=Eulix&theme=react&bg_color=0D1117&hide_border=true" alt="Eulix" />
-          </a>
-          <div style="margin: 15px 0;">
-            <a href="https://github.com/Nurysso/Eulix">
-              <img src="https://img.shields.io/badge/EXPLORE_CODE-12100E?style=for-the-badge&logo=github&logoColor=white&color=4facfe" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<!-- Project Stats Dashboard -->
 <div align="center">
-  <h2>GitHub Stats</h2>
 
-  <table>
-  <tr>
-    <td>
-       <img src="https://github-stats-alpha.vercel.app/api?username=Nurysso&cc=22272e&tc=37BCF6&ic=fff&bc=0000" alt="Dawood's GitHub Stats">
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nurysso&layout=compact&theme=github_dark" width="300"/>
-    </td>
-    <!-- <td rowspan="2">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nurysso&theme=github-dark-blue" width="300"/>
-    </td> -->
-  </tr>
-  <tr>
-    <td colspan="2">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nurysso&theme=react&bg_color=0d1117&color=58a6ff" width="600"/>
-    </td>
-  </tr>
+# ✦ Nurysso ✦
+
+**Where Design Meets Code**
+
+*Crafting beautiful tools that feel as good as they work*
+
+[![Total Clones](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Nurysso/Nurysso/main/data/clones_summary.json&label=Clones&query=cumulative_stats.total_clones&color=FF6B9D&logo=git&logoColor=white&style=flat-square)](https://github.com/Nurysso)
+[![Total Stars](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Nurysso/Nurysso/main/data/stars_summary.json&label=Stars&query=total_stars&color=C9FFBF&logo=starship&logoColor=333&style=flat-square)](https://github.com/Nurysso?tab=repositories)
+</div>
+
+
+
+<table>
+<tr>
+<td width="45%">
+
+## About Me
+
+I live at the intersection of **aesthetics** and **engineering**.
+
+Every line of code is an opportunity to create something that doesn't just work—it *delights*.
+
+I believe in:
+- ✨ **Thoughtful design** in CLI/GUI interfaces
+- 🎨 **Elegant solutions** to complex problems
+- 🌊 **Flow states** over feature bloat
+- 💫 **Tools that spark joy**
+
+> *"Good design is obvious. Great design is transparent."*
+
+</td>
+<td width="55%">
+
+<br>
+
+```
+┌─────────────────────────────────────┐
+│                                     │
+│  🎯 Building with purpose           │
+│  🧠 Thinking in systems             │
+│  ⚡ Shipping with intention          │
+│  🌿 Using Arch btw                  │
+│                                     │
+└─────────────────────────────────────┘
+```
+
+<br>
+
+### Tools of Choice
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+
+</td>
+</tr>
 </table>
+
+<br>
+
+---
+
+<br>
+
+<div align="center">
+
+## ✧ Featured Work ✧
+
+*Projects built with intention, shipped with pride*
 
 </div>
 
 <br>
 
-<!-- Fun Project Timeline -->
-<!-- <div align="center">
-  <h2>🗺️ Project Journey</h2>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=4000&pause=1000&center=true&vCenter=true&width=800&height=40&lines=🧠+vanish+→+🌐+Loki+→+⚙️+Athena+→+🔮+Hecate+→+???;From+AI+Dreams+to+Web+Magic+to+Automation+Wisdom!;Each+Project+Unlocks+New+Possibilities+%F0%9F%94%93" alt="Project Timeline" />
-</div> -->
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<details>
-  <summary><i>le footer</i></summary>
+<div align="center">
 
-   *Discord* > Nurysso <br/>
-   *Github* > well <br/>
-   *Mail* > Nurysso [at] proton.me <br/>
-   *Site* > https://dawood.page/<br/><br/>
+<img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Nurysso&repo=Hecate&theme=react&bg_color=1a1b27&title_color=FF6B9D&icon_color=FFD700&text_color=c9d1d9&hide_border=true" width="400" />
 
-</details>
-<!-- HASHNODE_BLOG:START -->
-<!-- - <a href="https://thewood.hashnode.dev/neural-network-from-scratch-in-python-a-step-by-step-guide" target="_blank">Neural Network from Scratch in Python: A Step-by-Step Guide</a> <br></br>
-- <a href="https://thewood.hashnode.dev/microsofts-typescript-compiler-rewritten-in-go-a-game-changer-for-developers" target="_blank">Microsoft&#39;s TypeScript Compiler Rewritten in Go: A Game-Changer for Developers</a> <br></br>
-- <a href="https://thewood.hashnode.dev/unlocking-the-power-of-conversational-ai-building-a-smart-chatbot-from-scratch" target="_blank">Unlocking the Power of Conversational AI: Building a Smart Chatbot from Scratch</a> <br></br> -->
-<!-- HASHNODE_BLOG:END -->
+<a href="https://github.com/Nurysso/Hecate">
+<img src="https://img.shields.io/badge/View_Project-FF6B9D?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
-<!-- <div align="center">
-  <a href="https://thewood.hashnode.dev/">
-    <img src="https://img.shields.io/badge/READ_MORE_ARTICLES-2962FF?style=for-the-badge&logo=hashnode&logoColor=white" />
-  </a>
 </div>
-<br> -->
+
+</td>
+<td width="50%" valign="top">
+
+<div align="center">
+
+<img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Nurysso&repo=kondo&theme=react&bg_color=1a1b27&title_color=C9FFBF&icon_color=00D9FF&text_color=c9d1d9&hide_border=true" width="400" />
+
+<a href="https://github.com/Nurysso/kondo">
+<img src="https://img.shields.io/badge/View_Project-C9FFBF?style=for-the-badge&logo=github&logoColor=333" />
+</a>
+
+</div>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<div align="center">
+
+
+<img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Nurysso&repo=vanish&theme=react&bg_color=1a1b27&title_color=B4A7FF&icon_color=667eea&text_color=c9d1d9&hide_border=true" width="400" />
+
+<a href="https://github.com/Nurysso/vanish">
+<img src="https://img.shields.io/badge/View_Project-B4A7FF?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</div>
+
+</td>
+<td width="50%" valign="top">
+
+<div align="center">
+
+
+<img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Nurysso&repo=Eulix&theme=react&bg_color=1a1b27&title_color=4FACFE&icon_color=00F2FE&text_color=c9d1d9&hide_border=true" width="400" />
+
+<a href="https://github.com/Nurysso/Eulix">
+<img src="https://img.shields.io/badge/View_Project-4FACFE?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</div>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+---
+
+<br>
+
+<div align="center">
+
+## STATS
+
+<table>
+<tr>
+<td align="center">
+<img src="https://raw.githubusercontent.com/Nurysso/github-stats/master/generated/overview.svg" alt="Overview" />
+</td>
+<td align="center">
+<img src="https://raw.githubusercontent.com/Nurysso/github-stats/master/generated/languages.svg" alt="Languages" />
+</td>
+</tr>
+</table>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nurysso&theme=react&bg_color=1a1b27&color=FF6B9D&line=C9FFBF&point=FFD700&hide_border=true" width="100%" />
+
+</div>
+
+<br>
+
+---
+
+<br>
+
+<div align="center">
+
+## ✉️ Let's Create Together
+
+*Always open to collaborations*
+
+<br>
+
+<table>
+<tr>
+<td align="center">
+
+**Discord**<br>
+`Nurysso`
+
+</td>
+<td align="center">
+
+**Email**<br>
+Nurysso [at] proton.me
+
+</td>
+<td align="center">
+
+**Web**<br>
+[dawood.page](https://dawood.page/)
+
+</td>
+</tr>
+</table>
+
+<br>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF6B9D?style=for-the-badge&logo=safari&logoColor=white)](https://dawood.page/)
+[![Email](https://img.shields.io/badge/Email-C9FFBF?style=for-the-badge&logo=protonmail&logoColor=333)](mailto:Nurysso@proton.me)
+
+<br>
+
+---
+
+<br>
+
+*Design is not just what it looks like and feels like.*<br>
+*Design is how it works.*
+
+<br>
+
+<sub>💫 Craft with intention • Stats refresh daily via GitHub Actions</sub>
+
+</div>
