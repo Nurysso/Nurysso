@@ -1,90 +1,110 @@
 {
-  "last_updated": "2025-12-08 14:40:32",
+  "last_updated": "2025-12-15 01:42:44",
   "period_stats": {
     "description": "Clone statistics for the last 14 days",
-    "total_clones": 431,
-    "total_unique_clones": 274,
-    "repositories_tracked": 17,
-    "repositories_with_clones": 14,
+    "total_clones": 756,
+    "total_unique_clones": 407,
+    "repositories_tracked": 15,
+    "repositories_with_clones": 15,
     "top_repositories": [
       {
         "name": "Hecate",
-        "period_clones": 135,
-        "period_unique": 64
+        "period_clones": 169,
+        "period_unique": 84
       },
       {
-        "name": "Nurysso",
-        "period_clones": 73,
-        "period_unique": 47
-      },
-      {
-        "name": "vanish",
-        "period_clones": 66,
-        "period_unique": 48
-      },
-      {
-        "name": "eulix",
-        "period_clones": 58,
-        "period_unique": 34
-      },
-      {
-        "name": "kondo",
-        "period_clones": 35,
-        "period_unique": 24
-      },
-      {
-        "name": "Freya",
-        "period_clones": 23,
+        "name": "pebble",
+        "period_clones": 130,
         "period_unique": 19
       },
       {
+        "name": "Nurysso",
+        "period_clones": 127,
+        "period_unique": 74
+      },
+      {
+        "name": "vanish",
+        "period_clones": 84,
+        "period_unique": 57
+      },
+      {
+        "name": "eulix",
+        "period_clones": 59,
+        "period_unique": 34
+      },
+      {
+        "name": "tyr",
+        "period_clones": 55,
+        "period_unique": 38
+      },
+      {
         "name": "github-stats",
-        "period_clones": 15,
-        "period_unique": 12
+        "period_clones": 49,
+        "period_unique": 39
       },
       {
         "name": "Hermes",
-        "period_clones": 11,
-        "period_unique": 11
+        "period_clones": 28,
+        "period_unique": 21
       },
       {
         "name": "gin",
-        "period_clones": 5,
-        "period_unique": 5
+        "period_clones": 22,
+        "period_unique": 11
       },
       {
         "name": "prtofolio",
-        "period_clones": 4,
-        "period_unique": 4
+        "period_clones": 11,
+        "period_unique": 10
       }
     ]
   },
   "cumulative_stats": {
     "description": "All-time cumulative clone statistics (since tracking began)",
-    "total_clones": 431,
-    "total_unique_clones": 274,
-    "repositories_tracked": 17,
-    "repositories_with_clones": 14,
+    "total_clones": 1187,
+    "total_unique_clones": 445,
+    "repositories_tracked": 19,
+    "repositories_with_clones": 19,
     "top_repositories": [
       {
         "name": "Hecate",
-        "total_clones": 135,
-        "total_unique": 64
+        "total_clones": 304,
+        "total_unique": 84
       },
       {
         "name": "Nurysso",
-        "total_clones": 73,
-        "total_unique": 47
+        "total_clones": 200,
+        "total_unique": 74
       },
       {
         "name": "vanish",
-        "total_clones": 66,
-        "total_unique": 48
+        "total_clones": 150,
+        "total_unique": 57
+      },
+      {
+        "name": "pebble",
+        "total_clones": 132,
+        "total_unique": 19
       },
       {
         "name": "eulix",
-        "total_clones": 58,
+        "total_clones": 117,
         "total_unique": 34
+      },
+      {
+        "name": "github-stats",
+        "total_clones": 64,
+        "total_unique": 39
+      },
+      {
+        "name": "tyr",
+        "total_clones": 55,
+        "total_unique": 38
+      },
+      {
+        "name": "Hermes",
+        "total_clones": 39,
+        "total_unique": 21
       },
       {
         "name": "kondo",
@@ -93,28 +113,8 @@
       },
       {
         "name": "Freya",
-        "total_clones": 23,
+        "total_clones": 33,
         "total_unique": 19
-      },
-      {
-        "name": "github-stats",
-        "total_clones": 15,
-        "total_unique": 12
-      },
-      {
-        "name": "Hermes",
-        "total_clones": 11,
-        "total_unique": 11
-      },
-      {
-        "name": "gin",
-        "total_clones": 5,
-        "total_unique": 5
-      },
-      {
-        "name": "prtofolio",
-        "total_clones": 4,
-        "total_unique": 4
       }
     ]
   },
@@ -126,46 +126,46 @@
       "last_updated": "2025-12-08 14:40:32"
     },
     "Athena": {
-      "total_clones": 0,
-      "total_unique": 0,
+      "total_clones": 2,
+      "total_unique": 2,
       "first_tracked": "2025-12-08 14:40:32",
-      "last_updated": "2025-12-08 14:40:32"
+      "last_updated": "2025-12-15 01:42:44"
     },
     "eulix": {
-      "total_clones": 58,
+      "total_clones": 117,
       "total_unique": 34,
       "first_tracked": "2025-12-08 14:40:32",
-      "last_updated": "2025-12-08 14:40:32"
+      "last_updated": "2025-12-15 01:42:44"
     },
     "Freya": {
-      "total_clones": 23,
+      "total_clones": 33,
       "total_unique": 19,
       "first_tracked": "2025-12-08 14:40:32",
-      "last_updated": "2025-12-08 14:40:32"
+      "last_updated": "2025-12-15 01:42:44"
     },
     "gin": {
-      "total_clones": 5,
-      "total_unique": 5,
-      "first_tracked": "2025-12-08 14:40:32",
-      "last_updated": "2025-12-08 14:40:32"
-    },
-    "github-stats": {
-      "total_clones": 15,
-      "total_unique": 12,
-      "first_tracked": "2025-12-08 14:40:32",
-      "last_updated": "2025-12-08 14:40:32"
-    },
-    "Hecate": {
-      "total_clones": 135,
-      "total_unique": 64,
-      "first_tracked": "2025-12-08 14:40:32",
-      "last_updated": "2025-12-08 14:40:32"
-    },
-    "Hermes": {
-      "total_clones": 11,
+      "total_clones": 27,
       "total_unique": 11,
       "first_tracked": "2025-12-08 14:40:32",
-      "last_updated": "2025-12-08 14:40:32"
+      "last_updated": "2025-12-15 01:42:44"
+    },
+    "github-stats": {
+      "total_clones": 64,
+      "total_unique": 39,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2025-12-15 01:42:44"
+    },
+    "Hecate": {
+      "total_clones": 304,
+      "total_unique": 84,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2025-12-15 01:42:44"
+    },
+    "Hermes": {
+      "total_clones": 39,
+      "total_unique": 21,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2025-12-15 01:42:44"
     },
     "hydra": {
       "total_clones": 2,
@@ -186,40 +186,52 @@
       "last_updated": "2025-12-08 14:40:32"
     },
     "Nurysso": {
-      "total_clones": 73,
-      "total_unique": 47,
+      "total_clones": 200,
+      "total_unique": 74,
       "first_tracked": "2025-12-08 14:40:32",
-      "last_updated": "2025-12-08 14:40:32"
+      "last_updated": "2025-12-15 01:42:44"
     },
     "pebble": {
-      "total_clones": 2,
-      "total_unique": 2,
+      "total_clones": 132,
+      "total_unique": 19,
       "first_tracked": "2025-12-08 14:40:32",
-      "last_updated": "2025-12-08 14:40:32"
+      "last_updated": "2025-12-15 01:42:44"
     },
     "prtofolio": {
-      "total_clones": 4,
-      "total_unique": 4,
+      "total_clones": 15,
+      "total_unique": 10,
       "first_tracked": "2025-12-08 14:40:32",
-      "last_updated": "2025-12-08 14:40:32"
+      "last_updated": "2025-12-15 01:42:44"
     },
     "sddm-astronaut-theme": {
-      "total_clones": 0,
-      "total_unique": 0,
+      "total_clones": 6,
+      "total_unique": 5,
       "first_tracked": "2025-12-08 14:40:32",
-      "last_updated": "2025-12-08 14:40:32"
+      "last_updated": "2025-12-15 01:42:44"
     },
     "vanish": {
-      "total_clones": 66,
-      "total_unique": 48,
+      "total_clones": 150,
+      "total_unique": 57,
       "first_tracked": "2025-12-08 14:40:32",
-      "last_updated": "2025-12-08 14:40:32"
+      "last_updated": "2025-12-15 01:42:44"
     },
     "venus": {
-      "total_clones": 0,
-      "total_unique": 0,
+      "total_clones": 1,
+      "total_unique": 1,
       "first_tracked": "2025-12-08 14:40:32",
-      "last_updated": "2025-12-08 14:40:32"
+      "last_updated": "2025-12-15 01:42:44"
+    },
+    "snapd": {
+      "total_clones": 3,
+      "total_unique": 3,
+      "first_tracked": "2025-12-15 01:42:44",
+      "last_updated": "2025-12-15 01:42:44"
+    },
+    "tyr": {
+      "total_clones": 55,
+      "total_unique": 38,
+      "first_tracked": "2025-12-15 01:42:44",
+      "last_updated": "2025-12-15 01:42:44"
     }
   }
 }
