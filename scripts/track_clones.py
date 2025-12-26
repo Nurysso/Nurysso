@@ -2,7 +2,7 @@ import os
 import csv
 import json
 import traceback
-from datetime import datetime
+from datetime import datetime, timedelta
 from collections import defaultdict
 from github import Github, Auth
 
@@ -10,19 +10,27 @@ DATA_DIR = "data"
 os.makedirs(DATA_DIR, exist_ok=True)
 
 
-def load_historical_totals():
-    """Load cumulative totals from existing summary file"""
+def load_historical_data():
+    """Load both cumulative totals and daily records"""
     summary_file = os.path.join(DATA_DIR, "clones_summary.json")
 
     if os.path.exists(summary_file):
         try:
             with open(summary_file, "r") as f:
                 data = json.load(f)
-                return data.get("cumulative_totals", {})
+                return {
+                    "cumulative_totals": data.get("cumulative_totals", {}),
+                    "daily_records": data.get("daily_records", {}),
+                    "last_run": data.get("last_updated")
+                }
         except:
             pass
 
-    return {}
+    return {
+        "cumulative_totals": {},
+        "daily_records": {},
+        "last_run": None
+    }
 
 
 def get_clone_stats():
@@ -52,21 +60,32 @@ def get_clone_stats():
     successful = 0
     failed = 0
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    today = datetime.now().strftime("%Y-%m-%d")
 
     print(f"\nFetching clone data for {username}'s repositories...")
     print("=" * 60)
 
     for repo in user.get_repos():
         try:
-            # Get traffic data (clones) - returns a Clones object
+            # Get traffic data (clones)
             clones = repo.get_clones_traffic()
 
-            # Access attributes directly
+            # Get daily breakdown
+            daily_clones = {}
+            for day_data in clones.clones:
+                day_str = day_data.timestamp.strftime("%Y-%m-%d")
+                daily_clones[day_str] = {
+                    "count": day_data.count,
+                    "uniques": day_data.uniques
+                }
+
             repo_data = {
                 "timestamp": timestamp,
+                "date": today,
                 "repo_name": repo.name,
-                "period_clones": clones.count,  # Clones in the last 14 days
-                "period_unique": clones.uniques,  # Unique clones in the last 14 days
+                "period_clones": clones.count,
+                "period_unique": clones.uniques,
+                "daily_breakdown": daily_clones
             }
 
             clone_data.append(repo_data)
@@ -87,7 +106,7 @@ def get_clone_stats():
     print(f"    ✗ Failed: {failed}")
     print(f"  Total repos: {successful + failed}")
 
-    return clone_data, timestamp
+    return clone_data, timestamp, today
 
 
 def update_csv(clone_data):
@@ -95,29 +114,30 @@ def update_csv(clone_data):
     csv_file = os.path.join(DATA_DIR, "clone_data.csv")
     file_exists = os.path.isfile(csv_file)
 
-    fieldnames = ["timestamp", "repo_name", "period_clones", "period_unique"]
+    fieldnames = ["timestamp", "date", "repo_name", "period_clones", "period_unique"]
 
     with open(csv_file, "a", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
 
-        # Write header only if file is new
         if not file_exists:
             writer.writeheader()
 
-        # Write all clone data
         for data in clone_data:
-            writer.writerow(data)
+            row = {k: v for k, v in data.items() if k in fieldnames}
+            writer.writerow(row)
 
     print(f"\n✓ CSV file updated at {csv_file} with {len(clone_data)} entries")
 
 
-def calculate_cumulative_totals(clone_data, historical_totals):
-    """Calculate cumulative totals by adding new clones to historical data"""
-    cumulative = historical_totals.copy()
+def calculate_cumulative_totals(clone_data, historical_data, today):
+    """Calculate cumulative totals using daily breakdown to avoid double-counting"""
+    cumulative = historical_data["cumulative_totals"].copy()
+    daily_records = historical_data["daily_records"].copy()
 
     for repo in clone_data:
         repo_name = repo["repo_name"]
 
+        # Initialize repo if not seen before
         if repo_name not in cumulative:
             cumulative[repo_name] = {
                 "total_clones": 0,
@@ -125,21 +145,43 @@ def calculate_cumulative_totals(clone_data, historical_totals):
                 "first_tracked": repo["timestamp"],
             }
 
-        # Add the period clones to cumulative total
-        cumulative[repo_name]["total_clones"] += repo["period_clones"]
+        if repo_name not in daily_records:
+            daily_records[repo_name] = {}
 
-        # For unique clones, we take the max seen in any period
-        # (since the same unique user might clone in multiple periods)
+        # Process each day in the breakdown
+        for day_str, day_stats in repo["daily_breakdown"].items():
+            # Only add clones if we haven't recorded this day before
+            if day_str not in daily_records[repo_name]:
+                daily_records[repo_name][day_str] = {
+                    "count": day_stats["count"],
+                    "uniques": day_stats["uniques"]
+                }
+
+                # Add to cumulative total
+                cumulative[repo_name]["total_clones"] += day_stats["count"]
+
+                print(f"  → Adding {day_stats['count']} clones from {day_str} for {repo_name}")
+
+        # Clean up old daily records (keep only last 30 days to save space)
+        cutoff_date = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
+        daily_records[repo_name] = {
+            day: stats
+            for day, stats in daily_records[repo_name].items()
+            if day >= cutoff_date
+        }
+
+        # Update unique count (use max from recent period)
         cumulative[repo_name]["total_unique"] = max(
-            cumulative[repo_name]["total_unique"], repo["period_unique"]
+            cumulative[repo_name]["total_unique"],
+            repo["period_unique"]
         )
 
         cumulative[repo_name]["last_updated"] = repo["timestamp"]
 
-    return cumulative
+    return cumulative, daily_records
 
 
-def update_clone_summary(clone_data, timestamp, cumulative_totals):
+def update_clone_summary(clone_data, timestamp, today, cumulative_totals, daily_records):
     """Create/update JSON summary file with both period and cumulative data"""
     summary_file = os.path.join(DATA_DIR, "clones_summary.json")
 
@@ -181,6 +223,7 @@ def update_clone_summary(clone_data, timestamp, cumulative_totals):
 
     summary = {
         "last_updated": timestamp,
+        "last_run_date": today,
         "period_stats": {
             "description": "Clone statistics for the last 14 days",
             "total_clones": period_total_clones,
@@ -201,7 +244,8 @@ def update_clone_summary(clone_data, timestamp, cumulative_totals):
             ),
             "top_repositories": top_clones_cumulative,
         },
-        "cumulative_totals": cumulative_totals,  # Store for next run
+        "cumulative_totals": cumulative_totals,
+        "daily_records": daily_records,  # Store daily records to prevent double-counting
     }
 
     with open(summary_file, "w") as f:
@@ -235,24 +279,26 @@ def update_clone_summary(clone_data, timestamp, cumulative_totals):
 
 def main():
     try:
-        # Load historical cumulative totals
-        historical_totals = load_historical_totals()
-        print(f"Loaded historical data for {len(historical_totals)} repositories\n")
+        # Load historical data
+        historical_data = load_historical_data()
+        print(f"Loaded historical data for {len(historical_data['cumulative_totals'])} repositories")
+        if historical_data['last_run']:
+            print(f"Last run: {historical_data['last_run']}\n")
 
-        # Get current clone data (last 14 days)
-        clone_data, timestamp = get_clone_stats()
+        # Get current clone data (last 14 days with daily breakdown)
+        clone_data, timestamp, today = get_clone_stats()
 
         if clone_data:
             # Update CSV with period data
             update_csv(clone_data)
 
-            # Calculate new cumulative totals
-            cumulative_totals = calculate_cumulative_totals(
-                clone_data, historical_totals
+            # Calculate new cumulative totals (avoiding double-counting)
+            cumulative_totals, daily_records = calculate_cumulative_totals(
+                clone_data, historical_data, today
             )
 
             # Update summary with both period and cumulative stats
-            update_clone_summary(clone_data, timestamp, cumulative_totals)
+            update_clone_summary(clone_data, timestamp, today, cumulative_totals, daily_records)
 
             print("\n=== Clone tracking completed successfully ===")
         else:
