@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-12-28 00:57:17",
-  "total_stars": 133,
+  "last_updated": "2025-12-29 00:55:29",
+  "total_stars": 139,
   "total_repositories": 16,
   "public_repositories": 16,
-  "starred_repositories": 10,
+  "starred_repositories": 11,
   "top_repositories": [
     {
       "name": "Hecate",
@@ -12,23 +12,28 @@
     },
     {
       "name": "vanish",
-      "stars": 9,
+      "stars": 10,
       "language": "Go"
     },
     {
       "name": "tyr",
-      "stars": 8,
+      "stars": 9,
       "language": "Rust"
     },
     {
       "name": "eulix",
-      "stars": 3,
+      "stars": 4,
       "language": "Rust"
     },
     {
       "name": "Freya",
-      "stars": 2,
+      "stars": 3,
       "language": "N/A"
+    },
+    {
+      "name": "prtofolio",
+      "stars": 2,
+      "language": "TypeScript"
     },
     {
       "name": "sddm-astronaut-theme",
@@ -46,14 +51,9 @@
       "language": "N/A"
     },
     {
-      "name": "Nurysso",
+      "name": "Hermes",
       "stars": 1,
-      "language": "Python"
-    },
-    {
-      "name": "prtofolio",
-      "stars": 1,
-      "language": "TypeScript"
+      "language": "N/A"
     }
   ]
 }
