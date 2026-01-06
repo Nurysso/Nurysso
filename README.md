@@ -6,8 +6,8 @@
 
 *Crafting beautiful tools that feel as good as they work*
 
-[![Total Clones](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Nurysso/Nurysso/main/data/clones_summary.json&label=Clones&query=cumulative_stats.total_clones&color=FF6B9D&logo=git&logoColor=white&style=flat-square)](https://github.com/Nurysso)
-[![Total Stars](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Nurysso/Nurysso/main/data/stars_summary.json&label=Stars&query=total_stars&color=C9FFBF&logo=starship&logoColor=333&style=flat-square)](https://github.com/Nurysso?tab=repositories)
+[![Total Clones](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Nurysso/github-stats/refs/heads/master/data/clones_summary.json&label=Clones&query=cumulative_stats.total_clones&color=FF6B9D&logo=git&logoColor=white&style=flat-square)](https://github.com/Nurysso)
+[![Total Stars](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Nurysso/github-stats/refs/heads/master/data/stars_summary.json&label=Stars&query=total_stars&color=C9FFBF&logo=starship&logoColor=333&style=flat-square)](https://github.com/Nurysso?tab=repositories)
 </div>
 
 
@@ -40,7 +40,7 @@ I believe in:
 │                                     │
 │  🎯 Building with purpose           │
 │  🧠 Thinking in systems             │
-│  ⚡ Shipping with intention          │
+│  ⚡ Shipping with intention         │
 │  🌿 Using Arch btw                  │
 │                                     │
 └─────────────────────────────────────┘
