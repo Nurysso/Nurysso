@@ -25,6 +25,12 @@ A polyglot AST parser + RAG system for understanding large codebases.
 
 ---
 
+### Looking for Remote/On-Site jobs EMEA/APAC
+> If you are looking for someone who can understand your codebase quickly and ship fast and stable features then lets connect
+#### Reach me
+
+- Email: nurysso [at] proton.me
+- Discord: nurysso
 ### Other Projects
 
 - [Hecate](https://github.com/Nurysso/Hecate) — Shell/Hyprland
@@ -47,13 +53,6 @@ A polyglot AST parser + RAG system for understanding large codebases.
 ```
 Rust · Go · TypeScript · Python · Bun · MYSQL · MariaDB · Linux
 ```
-
----
-
-### Reach me
-
-- Email: nurysso [at] proton.me
-- Discord: nurysso
 
 ---
 
