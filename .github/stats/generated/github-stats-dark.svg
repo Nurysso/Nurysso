@@ -1,0 +1,135 @@
+<svg width="860" height="554" viewBox="0 0 860 554" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub stats: 1 day current streak, 182 stars, 2,170 contributions">
+<title>Nurysso on GitHub</title>
+<style>:root{--panel:#151b27;--line:#27314a;--ink:#e8ecf5;--mute:#8a95ad;--ember:#ffb454;--dim:#53617f;--track:#222b3f}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;fill:var(--ink)}
+.panel{fill:var(--panel);stroke:var(--line);stroke-width:1}
+.rule{stroke:var(--line);stroke-width:1}
+.name{font-size:19px;font-weight:650}
+.h{font-size:13px;font-weight:600}
+.sm{font-size:12px}
+.xs{font-size:10.5px}
+.mute{fill:var(--mute)}
+.num{font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;font-weight:700;font-variant-numeric:lining-nums tabular-nums}
+.hero{font-size:62px;fill:var(--ember)}
+.val{font-size:34px}
+.unit{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:15px;font-weight:500;fill:var(--mute)}
+.track{fill:var(--track)}
+.seg{stroke:var(--panel);stroke-width:2}
+.b-streak{fill:var(--ember)}
+.b-dim{fill:var(--dim)}
+.tick{fill:var(--track)}
+.ring{fill:none;stroke:var(--ember);stroke-width:1.6}
+.span{stroke:var(--ember);stroke-width:3;stroke-linecap:round}
+.grid{stroke:var(--line);stroke-width:1;stroke-dasharray:3 4}
+.axis{stroke:var(--line);stroke-width:1}
+@media (prefers-reduced-motion: no-preference){
+  .bar{transform-box:fill-box;transform-origin:50% 100%;
+       animation:rise 700ms cubic-bezier(.2,.8,.2,1) both}
+  @keyframes rise{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+}
+</style>
+<rect class="panel" x="1" y="1" width="858" height="552" rx="16"/>
+<text class="name" x="30" y="40">Nurysso on GitHub</text><text class="mute sm" x="830" y="40" text-anchor="end">Updated Nov 16, 2026</text>
+<line class="rule" x1="30" y1="58" x2="830" y2="58"/>
+<text class="mute sm" x="30" y="92">Current streak</text>
+<text class="num hero" x="30" y="150">1<tspan class="unit" dx="8">day</tspan></text>
+<text class="sm" x="30" y="176">Last active Nov 15</text>
+<text class="mute xs" x="30" y="193">One day off keeps it going. Two in a row ends it.</text>
+<line class="rule" x1="350" y1="84" x2="350" y2="188"/>
+<text class="mute sm" x="380" y="92">Longest streak</text>
+<text class="num val" x="380" y="138">87<tspan class="unit" dx="6">days</tspan></text>
+<text class="mute xs" x="380" y="162">Aug 18 to Nov 12</text>
+<text class="mute sm" x="540" y="92">Stars earned</text>
+<text class="num val" x="540" y="138">182</text>
+<text class="mute xs" x="540" y="162">across 10 repositories</text>
+<text class="mute sm" x="700" y="92">Contributions</text>
+<text class="num val" x="700" y="138">2,170</text>
+<text class="mute xs" x="700" y="162">all time</text>
+<line class="rule" x1="30" y1="214" x2="830" y2="214"/>
+<text class="h" x="30" y="246">Languages by commits</text>
+<clipPath id="lang-clip"><rect x="30" y="266" width="800" height="8" rx="4.0"/></clipPath>
+<rect class="track" x="30" y="266" width="800" height="8" rx="4.0"/>
+<g clip-path="url(#lang-clip)">
+<rect class="seg" x="30.0" y="266" width="262.3" height="8" fill="#dea584"/>
+<rect class="seg" x="292.3" y="266" width="257.0" height="8" fill="#00ADD8"/>
+<rect class="seg" x="549.4" y="266" width="69.5" height="8" fill="#8b949e"/>
+<rect class="seg" x="618.9" y="266" width="58.3" height="8" fill="#89e051"/>
+<rect class="seg" x="677.2" y="266" width="50.5" height="8" fill="#3572A5"/>
+<rect class="seg" x="727.7" y="266" width="33.0" height="8" fill="#3178c6"/>
+<rect class="seg" x="760.7" y="266" width="27.0" height="8" fill="#f1e05a"/>
+<rect class="seg" x="787.7" y="266" width="12.2" height="8" fill="#8b949e"/>
+</g>
+<circle cx="34.5" cy="306" r="4.5" fill="#dea584"/>
+<text class="sm" x="46.0" y="310">Rust</text>
+<text class="mute sm" x="210.0" y="310" text-anchor="end">32.8%</text>
+<circle cx="234.5" cy="306" r="4.5" fill="#00ADD8"/>
+<text class="sm" x="246.0" y="310">Go</text>
+<text class="mute sm" x="410.0" y="310" text-anchor="end">32.1%</text>
+<circle cx="434.5" cy="306" r="4.5" fill="#8b949e"/>
+<text class="sm" x="446.0" y="310">QML</text>
+<text class="mute sm" x="610.0" y="310" text-anchor="end">8.7%</text>
+<circle cx="634.5" cy="306" r="4.5" fill="#89e051"/>
+<text class="sm" x="646.0" y="310">Shell</text>
+<text class="mute sm" x="810.0" y="310" text-anchor="end">7.3%</text>
+<circle cx="34.5" cy="330" r="4.5" fill="#3572A5"/>
+<text class="sm" x="46.0" y="334">Python</text>
+<text class="mute sm" x="210.0" y="334" text-anchor="end">6.3%</text>
+<circle cx="234.5" cy="330" r="4.5" fill="#3178c6"/>
+<text class="sm" x="246.0" y="334">TypeScript</text>
+<text class="mute sm" x="410.0" y="334" text-anchor="end">4.1%</text>
+<circle cx="434.5" cy="330" r="4.5" fill="#f1e05a"/>
+<text class="sm" x="446.0" y="334">JavaScript</text>
+<text class="mute sm" x="610.0" y="334" text-anchor="end">3.4%</text>
+<circle cx="634.5" cy="330" r="4.5" fill="#8b949e"/>
+<text class="sm" x="646.0" y="334">Astro</text>
+<text class="mute sm" x="810.0" y="334" text-anchor="end">1.5%</text>
+<line class="rule" x1="30" y1="354" x2="830" y2="354"/>
+<text class="h" x="30" y="386">Last 30 days</text>
+<text class="mute sm" x="706.0" y="386">Day off, streak kept</text>
+<circle class="ring" cx="696.5" cy="382" r="4"/>
+<text class="mute sm" x="610.0" y="386">Other days</text>
+<rect class="b-dim" x="596.0" y="377" width="9" height="9" rx="2"/>
+<text class="mute sm" x="520.2" y="386">In streak</text>
+<rect class="b-streak" x="506.2" y="377" width="9" height="9" rx="2"/>
+<line class="grid" x1="58" y1="420" x2="830" y2="420"/>
+<text class="mute xs" x="50" y="424" text-anchor="end">18</text>
+<line class="axis" x1="58" y1="504" x2="830" y2="504"/>
+<rect class="bar b-dim" style="animation-delay:0ms" x="63.9" y="462.0" width="14.0" height="42.0" rx="3"><title>Oct 18: 9 contributions</title></rect>
+<rect class="bar b-dim" style="animation-delay:22ms" x="89.6" y="480.7" width="14.0" height="23.3" rx="3"><title>Oct 19: 5 contributions</title></rect>
+<rect class="bar b-dim" style="animation-delay:44ms" x="115.3" y="466.7" width="14.0" height="37.3" rx="3"><title>Oct 20: 8 contributions</title></rect>
+<rect class="bar b-dim" style="animation-delay:66ms" x="141.1" y="471.3" width="14.0" height="32.7" rx="3"><title>Oct 21: 7 contributions</title></rect>
+<rect class="bar b-dim" style="animation-delay:88ms" x="166.8" y="466.7" width="14.0" height="37.3" rx="3"><title>Oct 22: 8 contributions</title></rect>
+<rect class="bar b-dim" style="animation-delay:110ms" x="192.5" y="466.7" width="14.0" height="37.3" rx="3"><title>Oct 23: 8 contributions</title></rect>
+<rect class="bar b-dim" style="animation-delay:132ms" x="218.3" y="420.0" width="14.0" height="84.0" rx="3"><title>Oct 24: 18 contributions</title></rect>
+<rect class="bar b-dim" style="animation-delay:154ms" x="244.0" y="452.7" width="14.0" height="51.3" rx="3"><title>Oct 25: 11 contributions</title></rect>
+<rect class="bar b-dim" style="animation-delay:176ms" x="269.7" y="499.3" width="14.0" height="4.7" rx="3"><title>Oct 26: 1 contribution</title></rect>
+<rect class="bar b-dim" style="animation-delay:198ms" x="295.5" y="466.7" width="14.0" height="37.3" rx="3"><title>Oct 27: 8 contributions</title></rect>
+<rect class="bar b-dim" style="animation-delay:220ms" x="321.2" y="438.7" width="14.0" height="65.3" rx="3"><title>Oct 28: 14 contributions</title></rect>
+<rect class="bar b-dim" style="animation-delay:242ms" x="346.9" y="462.0" width="14.0" height="42.0" rx="3"><title>Oct 29: 9 contributions</title></rect>
+<rect class="bar b-dim" style="animation-delay:264ms" x="372.7" y="494.7" width="14.0" height="9.3" rx="3"><title>Oct 30: 2 contributions</title></rect>
+<rect class="bar b-dim" style="animation-delay:286ms" x="398.4" y="499.3" width="14.0" height="4.7" rx="3"><title>Oct 31: 1 contribution</title></rect>
+<rect class="bar b-dim" style="animation-delay:308ms" x="424.1" y="499.3" width="14.0" height="4.7" rx="3"><title>Nov 1: 1 contribution</title></rect>
+<rect class="bar b-dim" style="animation-delay:330ms" x="449.9" y="424.7" width="14.0" height="79.3" rx="3"><title>Nov 2: 17 contributions</title></rect>
+<rect class="bar b-dim" style="animation-delay:352ms" x="475.6" y="471.3" width="14.0" height="32.7" rx="3"><title>Nov 3: 7 contributions</title></rect>
+<rect class="bar b-dim" style="animation-delay:374ms" x="501.3" y="499.3" width="14.0" height="4.7" rx="3"><title>Nov 4: 1 contribution</title></rect>
+<rect class="bar b-dim" style="animation-delay:396ms" x="527.1" y="471.3" width="14.0" height="32.7" rx="3"><title>Nov 5: 7 contributions</title></rect>
+<rect class="bar b-dim" style="animation-delay:418ms" x="552.8" y="499.3" width="14.0" height="4.7" rx="3"><title>Nov 6: 1 contribution</title></rect>
+<rect class="bar b-dim" style="animation-delay:440ms" x="578.5" y="499.3" width="14.0" height="4.7" rx="3"><title>Nov 7: 1 contribution</title></rect>
+<rect class="bar b-dim" style="animation-delay:462ms" x="604.3" y="499.3" width="14.0" height="4.7" rx="3"><title>Nov 8: 1 contribution</title></rect>
+<rect class="bar b-dim" style="animation-delay:484ms" x="630.0" y="485.3" width="14.0" height="18.7" rx="3"><title>Nov 9: 4 contributions</title></rect>
+<rect class="bar b-dim" style="animation-delay:506ms" x="655.7" y="499.3" width="14.0" height="4.7" rx="3"><title>Nov 10: 1 contribution</title></rect>
+<rect class="bar b-dim" style="animation-delay:528ms" x="681.5" y="499.3" width="14.0" height="4.7" rx="3"><title>Nov 11: 1 contribution</title></rect>
+<rect class="bar b-dim" style="animation-delay:550ms" x="707.2" y="499.3" width="14.0" height="4.7" rx="3"><title>Nov 12: 1 contribution</title></rect>
+<rect class="tick" x="732.9" y="502" width="14.0" height="2" rx="1"/>
+<rect class="tick" x="758.7" y="502" width="14.0" height="2" rx="1"/>
+<rect class="bar b-streak" style="animation-delay:616ms" x="784.4" y="499.3" width="14.0" height="4.7" rx="3"><title>Nov 15: 1 contribution</title></rect>
+<rect class="tick" x="810.1" y="502" width="14.0" height="2" rx="1"/>
+<line class="span" x1="784.4" y1="514" x2="798.4" y2="514"/>
+<text class="mute xs" x="70.9" y="534" text-anchor="middle">Oct 18</text>
+<text class="mute xs" x="199.5" y="534" text-anchor="middle">Oct 23</text>
+<text class="mute xs" x="328.2" y="534" text-anchor="middle">Oct 28</text>
+<text class="mute xs" x="456.9" y="534" text-anchor="middle">Nov 2</text>
+<text class="mute xs" x="585.5" y="534" text-anchor="middle">Nov 7</text>
+<text class="mute xs" x="714.2" y="534" text-anchor="middle">Nov 12</text>
+<text class="mute xs" x="817.1" y="534" text-anchor="middle">Nov 16</text>
+</svg>

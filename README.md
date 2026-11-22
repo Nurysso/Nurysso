@@ -1,11 +1,11 @@
-# 60 seconds. 24 million lines. Every\* function resolved.
+# 54 seconds. 37 million lines. One call graph.
 
 That's [**Eulix**](https://github.com/Nurysso/eulix) parsing the Linux kernel.
 
 I build software for people who have to understand systems that are **too large to keep in their head.**
 
-[![Total Clones](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Nurysso/github-stats/refs/heads/master/data/clones_summary.json&label=Clones&query=cumulative_stats.total_clones&color=FF6B9D&logo=git&logoColor=white&style=for-the-badge)](https://github.com/Nurysso)
-[![Total Stars](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Nurysso/github-stats/refs/heads/master/data/stars_summary.json&label=Stars&query=total_stars&color=C9FFBF&logo=star&logoColor=333&style=for-the-badge)](https://github.com/Nurysso?tab=repositories)
+[![Total Clones](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/nurysso/nurysso/main/.github/stats/data/clones_summary.json&label=Clones&query=cumulative_stats.total_clones&color=FF6B9D&logo=git&logoColor=white&style=for-the-badge)](https://github.com/Nurysso)
+[![Total Stars](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/nurysso/nurysso/main/.github/stats/data/stars_summary.json&label=Stars&query=total_stars&color=C9FFBF&logo=star&logoColor=333&style=for-the-badge)](https://github.com/Nurysso?tab=repositories)
 ![Profile Views](https://komarev.com/ghpvc/?username=Nurysso&color=FF6B9D&label=PROFILE%20VIEWS&logoColor=white&style=for-the-badge)
 [![Portfolio](https://img.shields.io/badge/Portfolio-C9FFBF?style=for-the-badge&logo=safari&logoColor=333)](https://dawood.page/)
 
@@ -17,32 +17,46 @@ I'm **Nurysso** a systems engineer interested in compilers, code analysis, devel
 
 ## Eulix
 
-### Code navigation for codebases that got too big.
+### Stop paying your agent to grep.
 
-> **Open-source · Polyglot · Fast**
+> **Open-source · Local-first · Polyglot · Apache-2.0**
 > Most code retrieval systems treat a repository like a collection of documents.
 > **Eulix treats it like a program.**
-> Given a question, Eulix progressively builds context through:
+
+Ask a coding agent about code it has never seen and it greps, opens a file, greps again and backs out of dead ends, and every step piles up in its context window.
+Eulix parses the repo once into symbols, scopes and a call graph, keeps that index warm in a local MCP server, and answers each question with **one ranked reply that fits a token budget**, every chunk tagged with its `file:line`.
 
 ```text
-Exact symbol
+your repo
     ↓
-Keyword search
+PRISM    call graph from the syntax tree   (Rust · Tree-sitter)
     ↓
-Semantic retrieval
+EHNAS    ranked context, no model in loop (Go)
     ↓
-Call graph expansion
+MCP      Claude Code · Cursor · Windsurf · Cline · …
 ```
 
-The cheap path runs first.
-The expensive path only runs when necessary.
+Instead of throwing a huge pile of text at an LLM and hoping it figures out the architecture, Eulix tries to determine **which code actually matters first.**
+That's the interesting part.
 
 ### PRISM
 
 **Polyglot Resolution via Inverted Symbol Maps**
-PRISM resolves cross-file relationships through a parallel five-phase pipeline built with Rayon.
-Instead of throwing a huge pile of text at an LLM and hoping it figures out the architecture, Eulix tries to determine **which code actually matters first.**
-That's the interesting part.
+PRISM v2 resolves calls straight from the syntax tree across nine languages, with no build step and no type checker.
+Checked against each language's own compiler tooling, **98.6% of the call edges it draws are right.**
+When a name is too ambiguous to guess, it leaves the edge out, because a missing edge misleads less than a wrong one.
+
+### EHNAS
+
+Retrieval with **zero embeddings, zero GPU, zero network.**
+Exact matches, Monte Carlo walks over the call graph and cross-language twin search, packed to fit the token budget.
+Want semantic recall too? The ETIYA engine adds embeddings on top.
+
+|       98.6%        |     < 20 ms      |      < 90 MB      |                 53.9 s                  |
+| :----------------: | :--------------: | :---------------: | :-------------------------------------: |
+| precise call edges | warm query (p50) | MCP server memory | Linux kernel parsed, call graph and all |
+
+Everything runs on your machine: no account, no API key, no telemetry.
 [→ Explore Eulix](https://github.com/Nurysso/eulix)
 
 ## <!-- Reaserch paper -->
@@ -106,22 +120,13 @@ I'm particularly interested in teams working on:
 - performance-critical software
   If your codebase is **large, messy, old, fast-moving, or all four** — that's usually where I want to be.
 
-> [!WARNING]
-> **If you're building your backend in Python, please don't contact me.**
->
-> I've had three startups speedrun the same conversation:
->
-> _"We built the backend in Python." "It's getting difficult to maintain." "Can you fix it?"_
->
-> ## No
->
-> I am tired. I am not cleaning up another vibe-coded Python backend. 😭
-
 **Email:** nurysso [at] proton.me <br>
 **Discord:** nurysso
 
 ---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Nurysso/github-stats/master/generated/github-stats.svg">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/nurysso/nurysso/main/.github/stats/generated/github-stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nurysso/nurysso/main/.github/stats/generated/github-stats-light.svg">
+  <img alt="GitHub stats" src="https://raw.githubusercontent.com/nurysso/nurysso/main/.github/stats/generated/github-stats-dark.svg">
+</picture>

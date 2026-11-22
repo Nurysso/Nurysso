@@ -1,0 +1,1469 @@
+{
+  "last_updated": "2026-11-16 06:09:24",
+  "last_run_date": "2026-11-16",
+  "period_stats": {
+    "description": "Clone statistics for the last 14 days",
+    "total_clones": 1425,
+    "total_unique_clones": 366,
+    "repositories_tracked": 9,
+    "repositories_with_clones": 9,
+    "top_repositories": [
+      {
+        "name": "Hecate",
+        "period_clones": 789,
+        "period_unique": 106
+      },
+      {
+        "name": "eulix",
+        "period_clones": 436,
+        "period_unique": 120
+      },
+      {
+        "name": "nurysso.github.io",
+        "period_clones": 63,
+        "period_unique": 38
+      },
+      {
+        "name": "tyr",
+        "period_clones": 51,
+        "period_unique": 38
+      },
+      {
+        "name": "vanish",
+        "period_clones": 43,
+        "period_unique": 29
+      },
+      {
+        "name": "Nurysso",
+        "period_clones": 16,
+        "period_unique": 14
+      },
+      {
+        "name": "BinRex",
+        "period_clones": 11,
+        "period_unique": 9
+      },
+      {
+        "name": "Hera",
+        "period_clones": 8,
+        "period_unique": 6
+      },
+      {
+        "name": "Hermes",
+        "period_clones": 8,
+        "period_unique": 6
+      }
+    ]
+  },
+  "cumulative_stats": {
+    "description": "All-time cumulative clone statistics (since tracking began)",
+    "total_clones": 62810,
+    "total_unique_clones": 1917,
+    "repositories_tracked": 26,
+    "repositories_with_clones": 25,
+    "top_repositories": [
+      {
+        "name": "eulix",
+        "total_clones": 22802,
+        "total_unique": 277
+      },
+      {
+        "name": "Hecate",
+        "total_clones": 9168,
+        "total_unique": 106
+      },
+      {
+        "name": "tyr",
+        "total_clones": 5574,
+        "total_unique": 38
+      },
+      {
+        "name": "vanish",
+        "total_clones": 5103,
+        "total_unique": 57
+      },
+      {
+        "name": "prtofolio",
+        "total_clones": 3436,
+        "total_unique": 68
+      },
+      {
+        "name": "Nurysso",
+        "total_clones": 2621,
+        "total_unique": 84
+      },
+      {
+        "name": "Hermes",
+        "total_clones": 866,
+        "total_unique": 21
+      },
+      {
+        "name": "Freya",
+        "total_clones": 793,
+        "total_unique": 29
+      },
+      {
+        "name": "sddm-astronaut-theme",
+        "total_clones": 759,
+        "total_unique": 18
+      },
+      {
+        "name": "BinRex",
+        "total_clones": 410,
+        "total_unique": 9
+      }
+    ]
+  },
+  "cumulative_totals": {
+    "archinstall": {
+      "total_clones": 1,
+      "total_unique": 1,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2025-12-08 14:40:32"
+    },
+    "Athena": {
+      "total_clones": 45,
+      "total_unique": 8,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2026-02-23 03:14:24"
+    },
+    "eulix": {
+      "total_clones": 22802,
+      "total_unique": 277,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2026-11-16 06:09:24"
+    },
+    "Freya": {
+      "total_clones": 793,
+      "total_unique": 29,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2026-06-09 04:19:01"
+    },
+    "gin": {
+      "total_clones": 64,
+      "total_unique": 15,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2026-01-04 02:29:50"
+    },
+    "github-stats": {
+      "total_clones": 164,
+      "total_unique": 52,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2026-01-04 02:29:50"
+    },
+    "Hecate": {
+      "total_clones": 9168,
+      "total_unique": 106,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2026-11-16 06:09:24"
+    },
+    "Hermes": {
+      "total_clones": 866,
+      "total_unique": 21,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2026-11-16 06:09:24"
+    },
+    "hydra": {
+      "total_clones": 2,
+      "total_unique": 2,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2025-12-08 14:40:32"
+    },
+    "kondo": {
+      "total_clones": 35,
+      "total_unique": 24,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2025-12-08 14:40:32"
+    },
+    "Memori": {
+      "total_clones": 1,
+      "total_unique": 1,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2025-12-08 14:40:32"
+    },
+    "Nurysso": {
+      "total_clones": 2621,
+      "total_unique": 84,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2026-11-16 06:09:24"
+    },
+    "pebble": {
+      "total_clones": 257,
+      "total_unique": 19,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2026-01-04 02:29:50"
+    },
+    "prtofolio": {
+      "total_clones": 3436,
+      "total_unique": 68,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2026-11-02 05:48:45"
+    },
+    "sddm-astronaut-theme": {
+      "total_clones": 759,
+      "total_unique": 18,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2026-06-09 04:19:01"
+    },
+    "vanish": {
+      "total_clones": 5103,
+      "total_unique": 57,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2026-11-16 06:09:24"
+    },
+    "venus": {
+      "total_clones": 79,
+      "total_unique": 10,
+      "first_tracked": "2025-12-08 14:40:32",
+      "last_updated": "2026-02-23 03:14:24"
+    },
+    "snapd": {
+      "total_clones": 5,
+      "total_unique": 3,
+      "first_tracked": "2025-12-15 01:42:44",
+      "last_updated": "2026-01-04 02:29:50"
+    },
+    "tyr": {
+      "total_clones": 5574,
+      "total_unique": 38,
+      "first_tracked": "2025-12-15 01:42:44",
+      "last_updated": "2026-11-16 06:09:24"
+    },
+    "Apollo": {
+      "total_clones": 18,
+      "total_unique": 17,
+      "first_tracked": "2025-12-26 20:18:33",
+      "last_updated": "2026-01-04 02:29:50"
+    },
+    "witr": {
+      "total_clones": 1,
+      "total_unique": 2,
+      "first_tracked": "2025-12-30 02:10:49",
+      "last_updated": "2026-01-04 02:29:50"
+    },
+    "dotcom": {
+      "total_clones": 0,
+      "total_unique": 0,
+      "first_tracked": "2026-01-04 02:29:50",
+      "last_updated": "2026-01-04 02:29:50"
+    },
+    "BinRex": {
+      "total_clones": 410,
+      "total_unique": 9,
+      "first_tracked": "2026-06-22 13:23:49",
+      "last_updated": "2026-11-16 06:09:24"
+    },
+    "gstrings": {
+      "total_clones": 281,
+      "total_unique": 12,
+      "first_tracked": "2026-06-22 13:23:49",
+      "last_updated": "2026-09-19 04:28:19"
+    },
+    "Hera": {
+      "total_clones": 263,
+      "total_unique": 6,
+      "first_tracked": "2026-06-22 13:23:49",
+      "last_updated": "2026-11-16 06:09:24"
+    },
+    "nurysso.github.io": {
+      "total_clones": 62,
+      "total_unique": 38,
+      "first_tracked": "2026-11-09 06:00:46",
+      "last_updated": "2026-11-16 06:09:24"
+    }
+  },
+  "daily_records": {
+    "Apollo": {
+      "2025-12-26": {
+        "count": 12,
+        "uniques": 11
+      },
+      "2025-12-27": {
+        "count": 2,
+        "uniques": 2
+      },
+      "2025-12-28": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2025-12-15": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-16": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-17": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-18": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-19": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-20": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-21": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-22": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-23": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-24": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-25": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-29": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2025-12-30": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-31": {
+        "count": 2,
+        "uniques": 2
+      },
+      "2026-01-01": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-01-02": {
+        "count": 0,
+        "uniques": 0
+      }
+    },
+    "Athena": {
+      "2026-02-21": {
+        "count": 0,
+        "uniques": 0
+      }
+    },
+    "eulix": {
+      "2026-10-27": {
+        "count": 44,
+        "uniques": 15
+      },
+      "2026-10-28": {
+        "count": 34,
+        "uniques": 9
+      },
+      "2026-10-29": {
+        "count": 68,
+        "uniques": 23
+      },
+      "2026-10-30": {
+        "count": 27,
+        "uniques": 10
+      },
+      "2026-10-31": {
+        "count": 15,
+        "uniques": 8
+      },
+      "2026-11-03": {
+        "count": 63,
+        "uniques": 22
+      },
+      "2026-11-04": {
+        "count": 25,
+        "uniques": 8
+      },
+      "2026-11-05": {
+        "count": 14,
+        "uniques": 7
+      },
+      "2026-11-06": {
+        "count": 7,
+        "uniques": 6
+      },
+      "2026-11-07": {
+        "count": 12,
+        "uniques": 7
+      },
+      "2026-11-08": {
+        "count": 41,
+        "uniques": 16
+      },
+      "2026-11-10": {
+        "count": 12,
+        "uniques": 4
+      },
+      "2026-11-11": {
+        "count": 44,
+        "uniques": 15
+      },
+      "2026-11-12": {
+        "count": 53,
+        "uniques": 20
+      },
+      "2026-11-13": {
+        "count": 20,
+        "uniques": 11
+      },
+      "2026-11-14": {
+        "count": 31,
+        "uniques": 14
+      }
+    },
+    "Freya": {
+      "2026-06-07": {
+        "count": 0,
+        "uniques": 0
+      }
+    },
+    "gin": {
+      "2025-12-12": {
+        "count": 12,
+        "uniques": 4
+      },
+      "2025-12-13": {
+        "count": 5,
+        "uniques": 3
+      },
+      "2025-12-15": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2025-12-16": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-17": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-18": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-19": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-20": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-21": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-22": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-23": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-24": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-25": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-26": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-27": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-28": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-29": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-30": {
+        "count": 8,
+        "uniques": 7
+      },
+      "2025-12-31": {
+        "count": 8,
+        "uniques": 7
+      },
+      "2026-01-01": {
+        "count": 3,
+        "uniques": 2
+      },
+      "2026-01-02": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-01-03": {
+        "count": 0,
+        "uniques": 0
+      }
+    },
+    "github-stats": {
+      "2025-12-13": {
+        "count": 8,
+        "uniques": 8
+      },
+      "2025-12-14": {
+        "count": 4,
+        "uniques": 4
+      },
+      "2025-12-15": {
+        "count": 2,
+        "uniques": 2
+      },
+      "2025-12-16": {
+        "count": 6,
+        "uniques": 6
+      },
+      "2025-12-17": {
+        "count": 5,
+        "uniques": 5
+      },
+      "2025-12-18": {
+        "count": 5,
+        "uniques": 5
+      },
+      "2025-12-19": {
+        "count": 7,
+        "uniques": 7
+      },
+      "2025-12-20": {
+        "count": 3,
+        "uniques": 3
+      },
+      "2025-12-21": {
+        "count": 3,
+        "uniques": 3
+      },
+      "2025-12-22": {
+        "count": 5,
+        "uniques": 5
+      },
+      "2025-12-23": {
+        "count": 4,
+        "uniques": 4
+      },
+      "2025-12-24": {
+        "count": 6,
+        "uniques": 6
+      },
+      "2025-12-25": {
+        "count": 4,
+        "uniques": 3
+      },
+      "2025-12-26": {
+        "count": 5,
+        "uniques": 4
+      },
+      "2025-12-27": {
+        "count": 5,
+        "uniques": 4
+      },
+      "2025-12-28": {
+        "count": 4,
+        "uniques": 3
+      },
+      "2025-12-29": {
+        "count": 5,
+        "uniques": 4
+      },
+      "2025-12-30": {
+        "count": 7,
+        "uniques": 6
+      },
+      "2025-12-31": {
+        "count": 5,
+        "uniques": 5
+      },
+      "2026-01-01": {
+        "count": 3,
+        "uniques": 3
+      },
+      "2026-01-02": {
+        "count": 4,
+        "uniques": 4
+      }
+    },
+    "Hecate": {
+      "2026-10-27": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2026-10-28": {
+        "count": 8,
+        "uniques": 4
+      },
+      "2026-10-29": {
+        "count": 32,
+        "uniques": 11
+      },
+      "2026-10-30": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-31": {
+        "count": 32,
+        "uniques": 14
+      },
+      "2026-11-01": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-03": {
+        "count": 4,
+        "uniques": 4
+      },
+      "2026-11-04": {
+        "count": 604,
+        "uniques": 22
+      },
+      "2026-11-05": {
+        "count": 43,
+        "uniques": 24
+      },
+      "2026-11-06": {
+        "count": 26,
+        "uniques": 10
+      },
+      "2026-11-07": {
+        "count": 4,
+        "uniques": 4
+      },
+      "2026-11-10": {
+        "count": 5,
+        "uniques": 4
+      },
+      "2026-11-11": {
+        "count": 4,
+        "uniques": 3
+      },
+      "2026-11-12": {
+        "count": 4,
+        "uniques": 4
+      },
+      "2026-11-13": {
+        "count": 3,
+        "uniques": 3
+      },
+      "2026-11-14": {
+        "count": 38,
+        "uniques": 6
+      }
+    },
+    "Hermes": {
+      "2026-10-27": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2026-10-28": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-29": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-30": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-31": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-03": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-04": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-05": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-06": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-07": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-10": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-11": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-12": {
+        "count": 3,
+        "uniques": 2
+      },
+      "2026-11-13": {
+        "count": 2,
+        "uniques": 1
+      },
+      "2026-11-14": {
+        "count": 0,
+        "uniques": 0
+      }
+    },
+    "Nurysso": {
+      "2026-10-27": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-28": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-29": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-30": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-31": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-03": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-04": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-05": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2026-11-06": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2026-11-07": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-10": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-11": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-12": {
+        "count": 5,
+        "uniques": 4
+      },
+      "2026-11-13": {
+        "count": 2,
+        "uniques": 1
+      },
+      "2026-11-14": {
+        "count": 3,
+        "uniques": 3
+      }
+    },
+    "pebble": {
+      "2025-12-13": {
+        "count": 39,
+        "uniques": 5
+      },
+      "2025-12-15": {
+        "count": 43,
+        "uniques": 8
+      },
+      "2025-12-16": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2025-12-20": {
+        "count": 2,
+        "uniques": 2
+      },
+      "2025-12-22": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2025-12-28": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2025-12-17": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-18": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-19": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-21": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-23": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-24": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-25": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-26": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-27": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-29": {
+        "count": 35,
+        "uniques": 4
+      },
+      "2025-12-30": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2025-12-31": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2026-01-01": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2026-01-02": {
+        "count": 0,
+        "uniques": 0
+      }
+    },
+    "prtofolio": {
+      "2026-10-23": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2026-10-27": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-28": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-29": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-30": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-31": {
+        "count": 1,
+        "uniques": 1
+      }
+    },
+    "sddm-astronaut-theme": {
+      "2026-06-07": {
+        "count": 0,
+        "uniques": 0
+      }
+    },
+    "snapd": {
+      "2025-12-13": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2025-12-14": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-15": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-16": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-17": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-18": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-19": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-20": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-21": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-22": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-23": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-24": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-25": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-26": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-27": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-28": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-29": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-30": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-31": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2026-01-01": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-01-02": {
+        "count": 0,
+        "uniques": 0
+      }
+    },
+    "tyr": {
+      "2026-10-27": {
+        "count": 5,
+        "uniques": 5
+      },
+      "2026-10-28": {
+        "count": 3,
+        "uniques": 3
+      },
+      "2026-10-29": {
+        "count": 8,
+        "uniques": 4
+      },
+      "2026-10-30": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2026-10-31": {
+        "count": 3,
+        "uniques": 3
+      },
+      "2026-11-01": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2026-11-03": {
+        "count": 5,
+        "uniques": 5
+      },
+      "2026-11-04": {
+        "count": 3,
+        "uniques": 3
+      },
+      "2026-11-05": {
+        "count": 5,
+        "uniques": 5
+      },
+      "2026-11-06": {
+        "count": 3,
+        "uniques": 3
+      },
+      "2026-11-07": {
+        "count": 2,
+        "uniques": 2
+      },
+      "2026-11-10": {
+        "count": 4,
+        "uniques": 4
+      },
+      "2026-11-11": {
+        "count": 4,
+        "uniques": 3
+      },
+      "2026-11-12": {
+        "count": 5,
+        "uniques": 4
+      },
+      "2026-11-13": {
+        "count": 2,
+        "uniques": 2
+      },
+      "2026-11-14": {
+        "count": 7,
+        "uniques": 6
+      }
+    },
+    "vanish": {
+      "2026-10-27": {
+        "count": 8,
+        "uniques": 7
+      },
+      "2026-10-28": {
+        "count": 3,
+        "uniques": 3
+      },
+      "2026-10-29": {
+        "count": 4,
+        "uniques": 2
+      },
+      "2026-10-30": {
+        "count": 2,
+        "uniques": 2
+      },
+      "2026-10-31": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2026-11-03": {
+        "count": 4,
+        "uniques": 4
+      },
+      "2026-11-04": {
+        "count": 2,
+        "uniques": 2
+      },
+      "2026-11-05": {
+        "count": 3,
+        "uniques": 3
+      },
+      "2026-11-06": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-07": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2026-11-10": {
+        "count": 3,
+        "uniques": 3
+      },
+      "2026-11-11": {
+        "count": 2,
+        "uniques": 2
+      },
+      "2026-11-12": {
+        "count": 5,
+        "uniques": 4
+      },
+      "2026-11-13": {
+        "count": 3,
+        "uniques": 2
+      },
+      "2026-11-14": {
+        "count": 7,
+        "uniques": 6
+      }
+    },
+    "venus": {
+      "2026-02-21": {
+        "count": 0,
+        "uniques": 0
+      }
+    },
+    "witr": {
+      "2025-12-16": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-17": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-18": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-19": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-20": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-21": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-22": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-23": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-24": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-25": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-26": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-27": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-28": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-29": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-30": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2025-12-31": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-01-01": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-01-02": {
+        "count": 0,
+        "uniques": 0
+      }
+    },
+    "dotcom": {
+      "2025-12-21": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-22": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-23": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-24": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-25": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-26": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-27": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-28": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-29": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-30": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2025-12-31": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-01-01": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-01-02": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-01-03": {
+        "count": 0,
+        "uniques": 0
+      }
+    },
+    "BinRex": {
+      "2026-10-27": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-28": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-29": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2026-10-30": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-31": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-03": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-04": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-05": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2026-11-06": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-07": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-10": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-11": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2026-11-12": {
+        "count": 3,
+        "uniques": 2
+      },
+      "2026-11-13": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-14": {
+        "count": 3,
+        "uniques": 2
+      }
+    },
+    "gstrings": {
+      "2026-09-17": {
+        "count": 0,
+        "uniques": 0
+      }
+    },
+    "Hera": {
+      "2026-10-27": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-28": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-29": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-30": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-31": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-03": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-04": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-05": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-06": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2026-11-07": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-10": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-11": {
+        "count": 2,
+        "uniques": 1
+      },
+      "2026-11-12": {
+        "count": 2,
+        "uniques": 1
+      },
+      "2026-11-13": {
+        "count": 2,
+        "uniques": 2
+      },
+      "2026-11-14": {
+        "count": 0,
+        "uniques": 0
+      }
+    },
+    "nurysso.github.io": {
+      "2026-10-26": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-27": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-28": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-29": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-30": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-10-31": {
+        "count": 1,
+        "uniques": 1
+      },
+      "2026-11-01": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-02": {
+        "count": 20,
+        "uniques": 9
+      },
+      "2026-11-03": {
+        "count": 12,
+        "uniques": 7
+      },
+      "2026-11-04": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-05": {
+        "count": 15,
+        "uniques": 8
+      },
+      "2026-11-06": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-07": {
+        "count": 3,
+        "uniques": 3
+      },
+      "2026-11-10": {
+        "count": 2,
+        "uniques": 1
+      },
+      "2026-11-11": {
+        "count": 2,
+        "uniques": 2
+      },
+      "2026-11-12": {
+        "count": 4,
+        "uniques": 3
+      },
+      "2026-11-13": {
+        "count": 0,
+        "uniques": 0
+      },
+      "2026-11-14": {
+        "count": 1,
+        "uniques": 1
+      }
+    }
+  }
+}

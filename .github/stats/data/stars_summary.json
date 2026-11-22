@@ -1,0 +1,59 @@
+{
+  "last_updated": "2026-11-16 06:09:35",
+  "total_stars": 183,
+  "total_repositories": 24,
+  "public_repositories": 24,
+  "starred_repositories": 8,
+  "top_repositories": [
+    {
+      "name": "Hecate",
+      "stars": 120,
+      "language": "QML"
+    },
+    {
+      "name": "eulix",
+      "stars": 21,
+      "language": "Rust"
+    },
+    {
+      "name": "vanish",
+      "stars": 21,
+      "language": "Go"
+    },
+    {
+      "name": "tyr",
+      "stars": 14,
+      "language": "Rust"
+    },
+    {
+      "name": "nurysso.github.io",
+      "stars": 3,
+      "language": "JavaScript"
+    },
+    {
+      "name": "BinRex",
+      "stars": 2,
+      "language": "TypeScript"
+    },
+    {
+      "name": "Hermes",
+      "stars": 1,
+      "language": "N/A"
+    },
+    {
+      "name": "yajl",
+      "stars": 1,
+      "language": "N/A"
+    },
+    {
+      "name": "biryani-leanProof",
+      "stars": 0,
+      "language": "Lean"
+    },
+    {
+      "name": "eulix-landing",
+      "stars": 0,
+      "language": "Astro"
+    }
+  ]
+}
