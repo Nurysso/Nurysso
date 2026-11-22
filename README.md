@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/koi/koi.gif" width="100%" alt="A pixel-art koi drawn from my GitHub activity and redrawn every night" />
+</p>
+
 # 54 seconds. 37 million lines. One call graph.
 
 That's [**Eulix**](https://github.com/Nurysso/eulix) parsing the Linux kernel.
@@ -9,11 +13,13 @@ I build software for people who have to understand systems that are **too large 
 ![Profile Views](https://komarev.com/ghpvc/?username=Nurysso&color=FF6B9D&label=PROFILE%20VIEWS&logoColor=white&style=for-the-badge)
 [![Portfolio](https://img.shields.io/badge/Portfolio-C9FFBF?style=for-the-badge&logo=safari&logoColor=333)](https://dawood.page/)
 
-I'm **Nurysso** a systems engineer interested in compilers, code analysis, developer tooling, and software that has to deal with reality rather than toy examples or basic curds 🍛.
+I'm **Nurysso**, a systems engineer interested in compilers, code analysis, developer tooling, and software that has to deal with reality rather than toy examples or basic curds 🍛.
 
-## I care about **correctness, performance, and understanding what's actually happening underneath the abstraction.**
+I care about **correctness, performance, and understanding what's actually happening underneath the abstraction.**
 
-> Current master piece of work
+---
+
+> Current masterpiece of work
 
 ## Eulix
 
@@ -59,28 +65,32 @@ Want semantic recall too? The ETIYA engine adds embeddings on top.
 Everything runs on your machine: no account, no API key, no telemetry.
 [→ Explore Eulix](https://github.com/Nurysso/eulix)
 
-## <!-- Reaserch paper -->
+<!-- Research paper -->
+
+---
 
 ## Things I've Built
 
 ### [vanish](https://github.com/Nurysso/vanish)
 
 > `rm` with an undo button.
-> A reversible file-deletion TUI built with Go and Bubble Tea.
 
-## Because deleting the wrong directory shouldn't require a backup strategy.
+A reversible file-deletion TUI built with Go and Bubble Tea.
+Because deleting the wrong directory shouldn't require a backup strategy.
 
 ### [tyr](https://github.com/Nurysso/tyr)
 
 > Your filesystem, locally classified.
 
-## A file organiser using local ML inference to classify and move files **without sending them to the cloud.**
+A file organiser using local ML inference to classify and move files **without sending them to the cloud.**
 
 ### [Hecate](https://github.com/Nurysso/Hecate)
 
 > Hyprland configuration with opinions.
 
-## A Hyprland configuration that adapts itself to aesthetic preferences during installation.
+A Hyprland configuration that adapts itself to aesthetic preferences during installation.
+
+---
 
 ## What I Like Building
 
@@ -118,7 +128,8 @@ I'm particularly interested in teams working on:
 - static analysis
 - large-scale developer platforms
 - performance-critical software
-  If your codebase is **large, messy, old, fast-moving, or all four** — that's usually where I want to be.
+
+If your codebase is **large, messy, old, fast-moving, or all four** — that's usually where I want to be.
 
 **Email:** nurysso [at] proton.me <br>
 **Discord:** nurysso
