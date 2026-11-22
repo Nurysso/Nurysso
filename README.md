@@ -1,6 +1,8 @@
-<p align="center">
-  <img src=".github/koi/koi.gif" width="100%" alt="A pixel-art koi drawn from my GitHub activity and redrawn every night" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/nurysso/nurysso/main/.github/stats/generated/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nurysso/nurysso/main/.github/stats/generated/banner-light.svg">
+  <img alt="Nurysso, with a call graph of projects: eulix (prism, ehnas, mcp), vanish (undo), tyr (classify), hecate (theme)" src="https://raw.githubusercontent.com/nurysso/nurysso/main/.github/stats/generated/banner-dark.svg">
+</picture>
 
 # 54 seconds. 37 million lines. One call graph.
 

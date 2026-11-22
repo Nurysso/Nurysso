@@ -8,6 +8,7 @@ from html import escape
 import aiohttp
 
 from github_stats import Stats
+from theme import SANS, SERIF, theme_vars
 
 # ── Layout ────────────────────────────────────────────────────────────────────
 # One panel, three bands separated by hairlines. Everything aligns to PX.
@@ -28,21 +29,6 @@ TOTAL_H = Y_ACT + ACT_H
 WINDOW = 30                  # days shown in the activity chart
 
 # ── Type & colour ─────────────────────────────────────────────────────────────
-# GitHub renders README images as <img>, which blocks web fonts, so these are
-# system stacks. Numbers get a serif for character; everything else is sans.
-SANS = '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif'
-SERIF = '"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif'
-
-DARK = dict(panel="#151b27", line="#27314a", ink="#e8ecf5", mute="#8a95ad",
-            ember="#ffb454", dim="#53617f", track="#222b3f")
-LIGHT = dict(panel="#ffffff", line="#dfe4ee", ink="#1a2130", mute="#677189",
-             ember="#d97706", dim="#aab4c9", track="#e9edf4")
-
-
-def _vars(p: dict) -> str:
-    return ";".join(f"--{k}:{v}" for k, v in p.items())
-
-
 STYLE_BODY = """
 text{font-family:SANS;fill:var(--ink)}
 .panel{fill:var(--panel);stroke:var(--line);stroke-width:1}
@@ -75,14 +61,7 @@ text{font-family:SANS;fill:var(--ink)}
 
 def build_style(theme: str) -> str:
     """theme: 'dark' or 'light' (fixed colours) or 'auto' (follows OS setting)."""
-    if theme == "dark":
-        head = f":root{{{_vars(DARK)}}}"
-    elif theme == "light":
-        head = f":root{{{_vars(LIGHT)}}}"
-    else:
-        head = (f":root{{{_vars(DARK)}}}"
-                f"@media (prefers-color-scheme: light){{:root{{{_vars(LIGHT)}}}}}")
-    return head + STYLE_BODY
+    return theme_vars(theme) + STYLE_BODY
 
 LANG_COLORS = {
     "Python": "#3572A5", "Rust": "#dea584", "Go": "#00ADD8",

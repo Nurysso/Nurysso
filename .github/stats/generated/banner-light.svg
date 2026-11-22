@@ -1,0 +1,66 @@
+<svg width="860" height="242" viewBox="0 0 860 242" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nurysso: eulix, vanish, tyr, hecate">
+<title>Nurysso</title>
+<style>:root{--panel:#ffffff;--line:#dfe4ee;--ink:#1a2130;--mute:#677189;--ember:#d97706;--dim:#aab4c9;--track:#e9edf4}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;fill:var(--ink)}
+.panel{fill:var(--panel);stroke:var(--line);stroke-width:1}
+.name{font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;font-size:42px;font-weight:700}
+.role{font-size:12.5px;fill:var(--mute)}
+.fn{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+.proj{font-size:14px;font-weight:600}
+.leaf{font-size:13px}
+.note{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-size:11px;fill:var(--dim)}
+.edge{fill:none;stroke:var(--dim);stroke-width:1.4}
+.edge.hot{stroke:var(--ember);stroke-width:2}
+.node{fill:var(--panel);stroke:var(--dim);stroke-width:1.4}
+.node.hot{fill:var(--ember);stroke:var(--ember)}
+.root{fill:var(--ember)}
+@media (prefers-reduced-motion: no-preference){
+  .edge{stroke-dasharray:1;animation:draw 520ms cubic-bezier(.3,.7,.2,1) backwards}
+  .in{animation:show 260ms ease-out backwards}
+  @keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+  @keyframes show{from{opacity:0}to{opacity:1}}
+}
+</style>
+<rect class="panel" x="1" y="1" width="858" height="240" rx="16"/>
+<text class="name" x="220" y="104.0" text-anchor="end">Nurysso</text>
+<text class="role" x="220" y="132.0" text-anchor="end">Systems engineer.</text>
+<text class="role" x="220" y="150.0" text-anchor="end">Compilers, code analysis,</text>
+<text class="role" x="220" y="168.0" text-anchor="end">developer tooling.</text>
+<path class="edge hot" pathLength="1" style="animation-delay:0ms" d="M232.0,99.0 C278.0,99.0 278.0,74.0 324.0,74.0"/>
+<path class="edge hot" pathLength="1" style="animation-delay:420ms" d="M410.8,74.0 C447.9,74.0 447.9,46.0 485.0,46.0"/>
+<path class="edge hot" pathLength="1" style="animation-delay:490ms" d="M410.8,74.0 C447.9,74.0 447.9,74.0 485.0,74.0"/>
+<path class="edge hot" pathLength="1" style="animation-delay:560ms" d="M410.8,74.0 C447.9,74.0 447.9,102.0 485.0,102.0"/>
+<path class="edge" pathLength="1" style="animation-delay:70ms" d="M232.0,99.0 C278.0,99.0 278.0,140.0 324.0,140.0"/>
+<path class="edge" pathLength="1" style="animation-delay:490ms" d="M419.2,140.0 C452.1,140.0 452.1,140.0 485.0,140.0"/>
+<path class="edge" pathLength="1" style="animation-delay:140ms" d="M232.0,99.0 C278.0,99.0 278.0,168.0 324.0,168.0"/>
+<path class="edge" pathLength="1" style="animation-delay:560ms" d="M394.0,168.0 C439.5,168.0 439.5,168.0 485.0,168.0"/>
+<path class="edge" pathLength="1" style="animation-delay:210ms" d="M232.0,99.0 C278.0,99.0 278.0,196.0 324.0,196.0"/>
+<path class="edge" pathLength="1" style="animation-delay:630ms" d="M419.2,196.0 C452.1,196.0 452.1,196.0 485.0,196.0"/>
+<circle class="node hot in" style="animation-delay:416ms" cx="330" cy="74.0" r="4.5"/>
+<text class="fn proj in" style="animation-delay:416ms" x="342" y="79.0">eulix()</text>
+<circle class="node hot in" style="animation-delay:836ms" cx="490" cy="46.0" r="3.5"/>
+<text class="fn leaf in" style="animation-delay:836ms" x="501" y="50.5">prism()</text>
+<text class="note in" style="animation-delay:956ms" x="610" y="50.0">// call graphs from syntax</text>
+<circle class="node hot in" style="animation-delay:906ms" cx="490" cy="74.0" r="3.5"/>
+<text class="fn leaf in" style="animation-delay:906ms" x="501" y="78.5">ehnas()</text>
+<text class="note in" style="animation-delay:1026ms" x="610" y="78.0">// retrieval with no model</text>
+<circle class="node hot in" style="animation-delay:976ms" cx="490" cy="102.0" r="3.5"/>
+<text class="fn leaf in" style="animation-delay:976ms" x="501" y="106.5">mcp()</text>
+<text class="note in" style="animation-delay:1096ms" x="610" y="106.0">// context for coding agents</text>
+<circle class="node in" style="animation-delay:486ms" cx="330" cy="140.0" r="4.5"/>
+<text class="fn proj in" style="animation-delay:486ms" x="342" y="145.0">vanish()</text>
+<circle class="node in" style="animation-delay:906ms" cx="490" cy="140.0" r="3.5"/>
+<text class="fn leaf in" style="animation-delay:906ms" x="501" y="144.5">undo()</text>
+<text class="note in" style="animation-delay:1026ms" x="610" y="144.0">// rm with an undo button</text>
+<circle class="node in" style="animation-delay:556ms" cx="330" cy="168.0" r="4.5"/>
+<text class="fn proj in" style="animation-delay:556ms" x="342" y="173.0">tyr()</text>
+<circle class="node in" style="animation-delay:976ms" cx="490" cy="168.0" r="3.5"/>
+<text class="fn leaf in" style="animation-delay:976ms" x="501" y="172.5">classify()</text>
+<text class="note in" style="animation-delay:1096ms" x="610" y="172.0">// sorts files with local ML</text>
+<circle class="node in" style="animation-delay:626ms" cx="330" cy="196.0" r="4.5"/>
+<text class="fn proj in" style="animation-delay:626ms" x="342" y="201.0">hecate()</text>
+<circle class="node in" style="animation-delay:1046ms" cx="490" cy="196.0" r="3.5"/>
+<text class="fn leaf in" style="animation-delay:1046ms" x="501" y="200.5">theme()</text>
+<text class="note in" style="animation-delay:1166ms" x="610" y="200.0">// Hyprland that themes itself</text>
+<circle class="root" cx="232" cy="99.0" r="6"/>
+</svg>
